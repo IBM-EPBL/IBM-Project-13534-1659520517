@@ -11,3 +11,8 @@ As our lives are very busy these days, we often feel we need more than 24 hrs. a
 - [@KrishnaKumar491](https://github.com/KrishnaKumar491)
 
 - [@ayyanar19](https://github.com/ayyanar19)
+
+## LINKS
+- [IDEATION PHASE](https://github.com/IBM-EPBL/IBM-Project-13534-1659520517/tree/main/Ideation%20phase)
+
+- [ASSIGNMENT PHASE](https://github.com/IBM-EPBL/IBM-Project-13534-1659520517/tree/main/Assignments)
