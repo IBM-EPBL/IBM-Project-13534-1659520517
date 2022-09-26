@@ -1,0 +1,11 @@
+update usertab 
+
+set roll_no=422519104007 
+
+where user_name='ayyanar';
+
+delete from usertab 
+
+where user_name='chandru';
+
+select*from usertab;
