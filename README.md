@@ -6,7 +6,7 @@ As our lives are very busy these days, we often feel we need more than 24 hrs. a
 
 - [@Chandrucoder](https://github.com/Chandrucoder)
 
-- [@Logesh1803-P](https://github.com/Logesh1803-P)
+- [@Logesh1803-P](https://github.com/Logesh1803-P)<img src="https://cdn-icons-png.flaticon.com/512/5065/5065181.png" width="36px">
 
 - [@KrishnaKumar491](https://github.com/KrishnaKumar491)
 
