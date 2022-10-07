@@ -4,17 +4,17 @@ As our lives are very busy these days, we often feel we need more than 24 hrs. a
 
 ## TEAM
 
-- [@Chandrucoder](https://github.com/Chandrucoder)
+- [@Chandrucoder - Chandrasekaran G](https://github.com/Chandrucoder)
 
-- [@Logesh1803-P](https://github.com/Logesh1803-P)
+- [@Logesh1803-P - Logesh P](https://github.com/Logesh1803-P)
 
-- [@KrishnaKumar491](https://github.com/KrishnaKumar491)
+- [@KrishnaKumar491 - Krishnakumar K](https://github.com/KrishnaKumar491)
 
-- [@ayyanar19](https://github.com/ayyanar19)
+- [@ayyanar19 - Ayyanar K](https://github.com/ayyanar19)
 
 ## LINKS
-- [IDEATION PHASE](https://github.com/IBM-EPBL/IBM-Project-13534-1659520517/tree/main/Ideation%20phase)
+- [ASSIGNMENTS](https://github.com/IBM-EPBL/IBM-Project-13534-1659520517/tree/main/Assignments)
 
-- [ASSIGNMENT PHASE](https://github.com/IBM-EPBL/IBM-Project-13534-1659520517/tree/main/Assignments)
+- [IDEATION PHASE](https://github.com/IBM-EPBL/IBM-Project-13534-1659520517/tree/main/Ideation%20phase)
 
 - [PROJECT DESIGN PHASE -Ⅰ](https://github.com/IBM-EPBL/IBM-Project-13534-1659520517/tree/main/Project%20Design%20Phase%20-%E2%85%A0)
