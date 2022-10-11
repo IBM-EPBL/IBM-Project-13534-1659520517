@@ -7,13 +7,13 @@ As our lives are very busy these days, we often feel we need more than 24 hrs. a
 
 ## TEAM
 
-- [@Chandrucoder - Chandrasekaran G](https://github.com/Chandrucoder)
+- [Chandrasekaran G](https://github.com/Chandrucoder)
 
-- [@Logesh1803-P - Logesh P](https://github.com/Logesh1803-P)
+- [Logesh P](https://github.com/Logesh1803-P)
 
-- [@KrishnaKumar491 - Krishnakumar K](https://github.com/KrishnaKumar491)
+- [Krishnakumar K](https://github.com/KrishnaKumar491)
 
-- [@ayyanar19 - Ayyanar K](https://github.com/ayyanar19)
+- [Ayyanar K](https://github.com/ayyanar19)
 
 ## LINKS
 - [ASSIGNMENTS](https://github.com/IBM-EPBL/IBM-Project-13534-1659520517/tree/main/Assignments)
