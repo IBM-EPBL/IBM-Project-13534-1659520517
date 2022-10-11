@@ -1,8 +1,0 @@
-create table usertab(user_name varchar2(30),email varchar2(40),roll_no number(20),passwords varchar2(40));
-
-insert into usertab values('chandru','hichandrug12@gmail.com',422519104010,'chandru12');
-
-insert into usertab values('logesh','logesh12@gmail.com',422519104027,'logesh12');
-insert into usertab values('ayyanar','ayyanar12@gmail.com',422519104026,'ayyanar12');
-insert into usertab values('krishnakumar','krishnakumar@gmail.com',422519104007,'krishna12');
-select*from usertab;
