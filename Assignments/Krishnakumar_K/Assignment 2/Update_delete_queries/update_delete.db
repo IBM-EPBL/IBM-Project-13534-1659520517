@@ -1,0 +1,17 @@
+update usertab 
+
+set roll_no=422519104007 
+
+where user_name='ayyanar';
+
+update usertab 
+
+set roll_no=422519104028 
+
+where user_name='krishnakumar';
+
+delete from usertab 
+
+where user_name='chandru';
+
+select*from usertab;
