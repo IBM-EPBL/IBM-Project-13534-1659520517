@@ -21,3 +21,5 @@ As our lives are very busy these days, we often feel we need more than 24 hrs. a
 - [IDEATION PHASE](https://github.com/IBM-EPBL/IBM-Project-13534-1659520517/tree/main/Ideation%20phase)
 
 - [PROJECT DESIGN PHASE -Ⅰ](https://github.com/IBM-EPBL/IBM-Project-13534-1659520517/tree/main/Project%20Design%20Phase%20-%E2%85%A0)
+
+- [PROJECT DESIGN PHASE -Ⅰ](https://github.com/IBM-EPBL/IBM-Project-13534-1659520517/tree/main/Project%20Design%20Phase%20-II)
