@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="{{url_for('static', filename='index_style.css')}}"
+    />
+    <title>Latest News Headlines</title>
+  </head>
+  <body>
+    <h1
+      style="color: rgb(216, 160, 248); font-family: monospace; opacity: 80%"
+      class="text-center mt-4 mb-5"
+    >
+      Read news!!! Boost your knowledge
+    </h1>
+    <div class="row mt-5">
+      <div class="col-md-2"></div>
+      <div class="col-md-8">
+        <div class="row">
+          {% for news in news_articles %}
+          <div class="col-md-4 mb-5">
+            <div class="card" style="width: 18rem">
+              <img src="{{ news.urlToImage }}" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">{{ news.title }}</h5>
+                <p class="card-text">{{ news.description }}</p>
+                <a href="{{ news.url }}" class="btn btn-dark">Read More</a>
+              </div>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+      <div class="col-md-2"></div>
+    </div>
+    <!-- Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+
+    <nav style="background-color: darkgray">
+      <h2
+        class="logo text-dark"
+        style="
+          color: rgb(105, 241, 92);
+          font-family: Arial, Helvetica, sans-serif;
+          position: inherit;
+        "
+      >
+        NTA
+      </h2>
+      <h5>News Tracker Application</h5>
+    </nav>
+
+    <nav class="navbar navbar-expand-lg bg-dark">
+      <div class="container-fluid">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active text-light" aria-current="page" href="#"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item" role="contact">
+              <a class="nav-link text-light" href="/contact">Contact</a>
+            </li>
+
+            <li class="nav-item" rol="logout">
+              <a class="nav-link text-light" href="/">Logout</a>
+            </li>
+          </ul>
+
+          <form class="d-flex" role="search" action="/search" method="post">
+            <input
+              style="background-color: black; color: rgb(107, 178, 240)"
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+              name="nm"
+            />
+            <button class="btn btn-primary" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <section id="main" style="background-color: black">
+      {% for title,desc,img,p_date,url in all %}
+      <div class="wrapper">
+        <div class="item">
+          <a href="{{url}}"><img src="{{img}}" /></a>
+        </div>
+        <div class="c-box">
+          <div class="content">
+            <a href="{{url}}"><h2>{{title}}</h2></a>
+          </div>
+          <div class="content"><p>{{desc}}</p></div>
+          <div class="content">
+            <p style="color: rgb(48, 158, 0)">Publish Date:-</p>
+            <p>{{p_date}}</p>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </section>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      window.watsonAssistantChatOptions = {
+        integrationID: "82ff5b45-788b-4e70-b4f5-3eee26113211", // The ID of this integration.
+        region: "au-syd", // The region your integration is hosted in.
+        serviceInstanceID: "d17518a4-e4a0-4e70-a4ab-ab4dd03ab61e", // The ID of your service instance.
+        onLoad: function (instance) {
+          instance.render();
+        },
+      };
+      setTimeout(function () {
+        const t = document.createElement("script");
+        t.src =
+          "https://web-chat.global.assistant.watson.appdomain.cloud/versions/" +
+          (window.watsonAssistantChatOptions.clientVersion || "latest") +
+          "/WatsonAssistantChatEntry.js";
+        document.head.appendChild(t);
+      });
+    </script>
+  </body>
+</html>
