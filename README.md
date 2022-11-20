@@ -27,3 +27,11 @@ As our lives are very busy these days, we often feel we need more than 24 hrs. a
 - [PROJECT PLANNING PHASE](https://github.com/IBM-EPBL/IBM-Project-13534-1659520517/tree/main/Project%20Design%20%26%20Planning/Project%20Planning%20Phase)
 
 - [SPRINT 1](https://github.com/IBM-EPBL/IBM-Project-13534-1659520517/tree/main/Project%20Development%20Phase/Sprint%201)
+
+- [SPRINT 2](https://github.com/IBM-EPBL/IBM-Project-13534-1659520517/tree/main/Project%20Development%20Phase/Sprint%202)
+
+- [SPRINT 3](https://github.com/IBM-EPBL/IBM-Project-13534-1659520517/tree/main/Project%20Development%20Phase/Sprint%203)
+
+- [SPRINT 4](https://github.com/IBM-EPBL/IBM-Project-13534-1659520517/tree/main/Project%20Development%20Phase/Sprint%204)
+
+- [Final Deliverables](https://github.com/IBM-EPBL/IBM-Project-13534-1659520517/tree/main/Final%20Deliverables)
