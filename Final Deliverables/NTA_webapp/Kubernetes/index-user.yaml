@@ -1,0 +1,28 @@
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: user
+  namespace: kubernetes-index
+---
+apiVersion: v1
+kind: Secret
+metadata:
+  name: user-token
+  namespace: kubernetes-index
+  annotations:
+    kubernetes.io/service-account.name: admin-user
+type: kubernetes.io/service-account-token
+
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRoleBinding
+metadata:
+  name: user
+roleRef:
+  apiGroup: rbac.authorization.k8s.io
+  kind: ClusterRole
+  name: cluster-admin
+subjects:
+  - kind: ServiceAccount
+    name: user
+    namespace: kubernetes-index
